@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Taboo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcome">Hello There </string>
+    <string name="title_activity_class_list_new">ClassListNew</string>
+    <string name="title_activity_list_time_table">ListTimeTable</string>
+    <string name="title_activity_update_class">UpdateClass</string>
+    <string name="title_activity_class_details">ClassDetails</string>
+
+</resources>

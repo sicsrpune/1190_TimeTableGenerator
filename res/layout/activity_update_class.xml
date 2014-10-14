@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/android11" >
+<TableLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+    
+    <TableRow >
+            	<TextView
+                android:id="@+id/textView12"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Class name"
+                android:textSize="20sp"
+                android:layout_margin="12dp" />
+
+
+
+            <EditText
+                android:id="@+id/editName"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_margin="12dp"
+                 android:ems="5" >
+
+            </EditText>
+        </TableRow>
+        
+        <TableRow >
+           <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Class Date"
+                android:textSize="20sp"
+                android:layout_margin="12dp"
+                 />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="showDatePicker"
+                    android:src="@drawable/date3png"
+                    android:background="#FFFFFF"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:layout_margin="12dp"  >
+                </ImageButton>
+
+                <TextView
+                    android:id="@+id/textClassDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="10dp"
+                    android:text="2012-04-24"
+                    android:textSize="20sp"
+                	android:layout_margin="12dp" >
+                </TextView>
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Class Time"
+                android:textSize="20sp"
+                android:layout_margin="12dp"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="showTimePicker"
+                    android:src="@drawable/date3png"
+                    android:background="#FFFFFF"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:layout_margin="12dp" >
+                </ImageButton>
+
+                <TextView
+                    android:id="@+id/textClassTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="10dp"
+                    android:text="19:00"
+                    android:textSize="20sp"
+                	android:layout_margin="12dp" >
+                </TextView>
+            </LinearLayout>
+        </TableRow>
+     
+
+        <TableRow >
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Period (Min)"
+                android:textSize="20sp"
+                android:layout_margin="12dp" />
+
+
+
+            <EditText
+                android:id="@+id/editPeriod"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:textSize="20sp"
+                android:layout_margin="12dp"
+                 android:ems="5" >
+
+            </EditText>
+        </TableRow>
+        
+              <TableRow >
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Topics"
+                android:textSize="20sp"
+                android:layout_margin="12dp" />
+
+
+            <EditText
+                android:id="@+id/editTopics"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_margin="12dp"
+                 android:ems="5" >
+
+            </EditText>
+        </TableRow>
+            
+
+        <TableRow >
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Remarks"
+                android:textSize="20sp"
+                android:layout_margin="12dp" />
+
+            <EditText
+                android:id="@+id/editRemarks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_margin="12dp"
+                 android:ems="5" >
+            </EditText>
+        </TableRow>
+        
+        <TableRow  android:layout_span="2" android:gravity="center">
+            <Button
+                android:id="@+id/updateoneclass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Update Class" >
+            </Button>
+            <Button
+                android:id="@+id/deleteoneclass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Delete Class" >
+            </Button>
+        </TableRow>
+
+</TableLayout>
+
+</ScrollView>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/android11" >
+
+  	
+    
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:stretchColumns="1" >
+        
+        
+
+        <TableRow>   
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Code"
+                android:textSize="20sp"
+                android:layout_margin="12dp"  />
+            <TextView
+                android:id="@+id/editBatchCode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_margin="12dp"
+                android:ems="5"
+                  >
+
+                <requestFocus />
+            </TextView>
+        </TableRow>
+
+        <TableRow >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Course"
+                android:textSize="20sp"
+                android:layout_margin="12dp"  />
+
+            <TextView
+                android:id="@+id/editCourse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_margin="12dp"
+                android:ems="5"  >
+            </TextView>
+        </TableRow>
+
+       <TableRow>
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Remarks"
+                android:textSize="20sp"
+                android:layout_margin="12dp"  />
+
+            <TextView
+                android:id="@+id/editRemarks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_margin="12dp"
+                android:ems="5"  >
+            </TextView>
+        </TableRow>
+
+        <TableRow >
+
+            <Button
+                android:id="@+id/addclasses"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add Classes" >
+            </Button>
+            <Button
+        	    android:id="@+id/updateclassbut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Class"
+                 
+                >
+            </Button> 
+            
+        </TableRow>
+        <TableRow>
+        	   <Button
+                android:id="@+id/listclasses"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time Table" 
+                android:layout_span="2">
+            </Button>  
+             
+        </TableRow>
+    </TableLayout>
+
+</ScrollView>
